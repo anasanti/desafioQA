@@ -9,7 +9,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import selenium.DriveManager;
 
-public class TesteSimulacao {
+public class UISimulacao {
     private DriveManager driver;
     private Simulador simulador;
     private WebDriverWait wait;

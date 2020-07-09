@@ -4,7 +4,7 @@ Começando
 
 Para rodar os teste inserir no terminal o comando 
 
-Testes
+Testes UI
 
 @positivo @tempoAno @perfilParaVoce
 Cenario: Deve concluir investimento para o perfil Para Voce com o tempo em ano
