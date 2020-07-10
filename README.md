@@ -1,8 +1,13 @@
 Desafio QA South System
 ====================================
 Como executar<br /> 
-Os testes podem ser executados atraves de uma IDE ou pelo comando<br /> 
->
+Os testes podem ser executados atraves de uma IDE ou pelo terminal com o comando na raiz do projeto<br /> 
+>mvn test
+
+Tecnicas de testes escolhidas.<br />
+Foi realizado testes funcionais e de estrutura na UI e de API<br />
+Na UI foi utilizado o framework selenium e focando em testes automatizados, avaliando cenarios positivos e negativos.<br /> 
+Ja na API foi realizado o teste unitario.<br />
 
 Testes UI<br />
 @positivo @tempoAno @perfilParaVoce<br />
@@ -180,7 +185,7 @@ caso seja informado um valor diferente sera executado atraves do Edge<br />
 
 Desenvolvido  com<br />
 Selenium - 3.141.59 - Framework<br />
-Maven - 4.0.0 - Gerente de Dependencia<br />
+Maven - 3.6.3 - Gerente de Dependencia<br />
 Java - 8 - Linguegem<br />
 JUnit - 4.11 - Framework de Teste<br />
 Windows - 10 - Sistema Operacional<br />
