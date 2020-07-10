@@ -23,20 +23,19 @@ public class DriveManager {
     }
 
     public void chooseBrowser(String browserName) {
-      //  if(browserName.equalsIgnoreCase("Chrome"))
-       // {
-            System.setProperty("webdriver.chrome.driver", "src\\main\\resources\\driver\\chromedriver.exe");
-            driver = new ChromeDriver();
-       // }
-       /* else if (browserName.equalsIgnoreCase("Firefox")) {
-            System.setProperty("webdriver.firefox.driver","C:\\Users\\ana.santi\\Documents\\repositorio\\desafioQA\\src\\main\\resources\\driver\\geckodriver.exe");
+        if(browserName.equalsIgnoreCase("Chrome"))
+        {
+        System.setProperty("webdriver.chrome.driver", "src\\main\\resources\\driver\\chromedriver.exe");
+        driver = new ChromeDriver();
+        }
+        else if (browserName.equalsIgnoreCase("Firefox")) {
+            System.setProperty("webdriver.gecko.driver","src\\main\\resources\\driver\\geckodriver.exe");
             driver = new FirefoxDriver();
         }
         else{
-            System.setProperty("webdriver.Edge.driver","C:\\Users\\ana.santi\\Documents\\repositorio\\desafioQA\\src\\main\\resources\\driver\\IEDriverServer.exe");
-            driver = new EdgeDriver();
-        }*/
-
+        System.setProperty("webdriver.edge.driver","src\\main\\resources\\driver\\msedgedriver.exe");
+        driver = new EdgeDriver();
+       }
     }
 
     public void endSession() {
